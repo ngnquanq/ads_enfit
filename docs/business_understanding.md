@@ -6,11 +6,6 @@ Tạo ra một mô hình **dự đoán mức tiêu thụ năng lượng** cho c�
 
 **Mất cân bằng năng lượng**: Xuất hiện khi **lượng điện dự đoán tiêu thụ khác với lượng điện năng đo lường được**. Và các nhà tiêu dùng (vừa tiêu thụ, vừa tạo ra năng lượng) đóng góp không nhỏ vào sự mất cân bằng này. **Mặc dù chiếm tỉ số nhỏ, lượng điện tiêu thụ khó đoán của prosumers gây ra ảnh hưởng không nhỏ đối với logistics và tài chính của các công ty năng lượng.**
 
-## Questions
-1. Nhận diện/đặc điểm của các prosumers là như thế nào?
-
-2. 
-
 
 # 2. Giới thiệu về vấn đề đang gặp phải
 
@@ -24,3 +19,5 @@ Bài toán này sử dụng thước đo là chỉ số Mean Absolute Error (MAE
 $$ MAE = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i| $$
 
 **Note**: Objective của bài toán không phải là để tối thiểu giá trị của thước đo này, khi một thước đo trở thành tiêu chuẩn, thước đo đó không còn là thước đo chuẩn nữa. 
+
+# 4. Câu hỏi đặt ra
